@@ -6,13 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Developer debate</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/icomoon.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,25 +20,74 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <nav class="navbar navbar-personalizado">
+            <div class="container">
 
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Preguntas</a></li>
-                        </ul>
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar app-bar"></span>
+                        <span class="icon-bar app-bar"></span>
+                        <span class="icon-bar app-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand link-personalizado">Developer debate</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-right nav-personalizado">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Preguntas</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="app-principal">
+            <div class="container">
+                <h1 class="app-titulo">Developer debate</h1>
+                <p class="app-desc">El mejor sistemas de Discuciones para Desarrolladores en Español.</p>
+                <div class="app-redes">
+                    <div class="app-sociales">
+                        <div class="app-github">
+                            <button class="btn btn-gitbub btn-block">
+                                <span class="icon-github icons-letras"></span>
+                                <span class="icons-letras"> GitHub</span>
+                            </button>
+                        </div>
+                        <div class="app-linkedin">
+                            <button class="btn btn-linkedin btn-block">
+                                <span class="icon-linkedin icons-letras"></span>
+                                <span class="icons-letras"> Linkedin</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </nav>
-            
+            </div>
+        </section>
+
+        <section class="app-preguntar">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-xs col-sm-6">
+                        <div class="app-datos">
+                            <div class="gl-usuario">
+                                <span class="glyphicon glyphicon-user"></span>
+                                <span>Usuarios:   5072</span>
+                            </div>
+                            <div class="gl-preguntas">
+                                <span class="glyphicon glyphicon-comment"></span>
+                                <span>Preguntas:   10583</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-offset-2 col-sm-4">
+                        <button class="btn btn-preguntar btn-block btn-lg">
+                            <span>Realiza tu Pregunta</span>    
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
